@@ -25,6 +25,25 @@ body {
 	margin: 0 auto;
 }
 
+.button {
+	background-color: #006A50;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21.6px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #006A50;
+
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #006A50;
+	border: 1px solid #006A50;
+}
+
 /* 	Header */
 
 .nav nav ul{
@@ -58,3 +77,36 @@ body {
 	color: #fff;
 }
 
+/* hero section */
+
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 60px;
+	background-color: #C6E4D6;
+	border-radius: 24px;
+
+}
+
+.hero .content {
+	
+}
+
+.hero .content h4 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.4px;
+	color: #0E0E0E80;
+	opacity: .50;
+	margin-bottom: 12px;
+}
+
+.hero .content p {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 67.2px;
+	color: #0E0E0E;
+	margin-bottom: 15px;
+}
