@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 
@@ -50,7 +50,16 @@ body {
 	line-height: 57.6px;
 	color: #0E0E0E;
 	margin-bottom: 30px;
-	margin-top: 60px;
+	margin-top: 30px;
+}
+
+.section-title p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #0E0E0E;
+	opacity: .70;
+	margin-bottom: 30px;
 }
 
 /* 	Header */
@@ -125,7 +134,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 20px;
+	gap: 30px;
 	flex-wrap: wrap;
 	
 }
@@ -135,20 +144,95 @@ body {
 	border-radius: 16px;
 	padding: 30px;
 	border: 1px solid #0E0E0E26 ;
-	width: 280px;
+	width: 295px;
 }
 
 .cards .card h3 {
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 26.4px;
 	color: #0E0E0E;
 	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 .cards .card p {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
-	color: #0E0E0E80;
+	color: #0E0E0E;
+	opacity: .70;
 }
+
+.vision-cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+	flex-wrap: wrap;
+
+}
+
+.vision-cards .vision-card {
+	border-radius: 16px;
+	padding: 40px 30px;
+	width: 410px;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.blue-card {
+	background: #5490F533;
+}
+
+.green-card {
+	background-color: #C6E4D6;
+}
+
+.yellow-card {
+	background-color: #F7EBCF;
+}
+
+.vision-cards .vision-card h3 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26.4px;
+	color: #0E0E0E;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.vision-cards .vision-card p {	
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #0E0E0E;
+	opacity: .70;
+	margin-bottom: 20px;
+}
+
+.vision-cards .vision-card .vision-button button {
+	padding:   10px 20px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.2px;
+	cursor: pointer;
+	border-radius: 5px;
+	color: #fff;
+	border:none;
+}
+
+.blue-button {
+	background-color: #5490F5;
+}
+
+.green-button {
+	background-color: #09A15C;	
+}
+
+.yellow-button {
+	background-color: #FFC239;
+}
+
