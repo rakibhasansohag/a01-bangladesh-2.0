@@ -25,6 +25,10 @@ body {
 	margin: 0 auto;
 }
 
+.space {
+	margin: 15px 0;
+}
+
 .button {
 	background-color: #006A50;
 	color: #fff;
@@ -164,6 +168,12 @@ body {
 	opacity: .70;
 }
 
+/* Vision Sections */
+
+.vision {
+	padding: 30px 0;
+}
+
 .vision-cards {
 	display: flex;
 	justify-content: space-between;
@@ -236,3 +246,41 @@ body {
 	background-color: #FFC239;
 }
 
+
+
+/* Testimonial */
+
+.testimonial {
+	padding: 30px;
+	background: #fff;
+	border :1px solid #0E0E0E26;
+	border-radius: 16px;
+	margin-bottom: 30px;
+}
+
+.quote-container {
+	background: url('../assets/quote-bg.png') no-repeat top left, transparent;
+	padding-top: 30px;
+	
+}
+
+.quote-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #0E0E0E;
+	opacity: .80;
+}
+
+.author-info {
+	margin:15px 0
+}
+
+.author-name {
+	font-size: 20px;
+	line-height: 24px;
+	color: #0E0E0E;
+	font-weight: 600;
+	margin-bottom: 5px;
+	opacity: .8;
+}
