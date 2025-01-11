@@ -44,6 +44,15 @@ body {
 	border: 1px solid #006A50;
 }
 
+.section-title h1 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 57.6px;
+	color: #0E0E0E;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
 /* 	Header */
 
 .nav nav ul{
@@ -90,10 +99,6 @@ body {
 
 }
 
-.hero .content {
-	
-}
-
 .hero .content h4 {
 	font-size: 24px;
 	font-weight: 500;
@@ -109,4 +114,41 @@ body {
 	line-height: 67.2px;
 	color: #0E0E0E;
 	margin-bottom: 15px;
+}
+
+/* pillars of cards Section  */
+.pillars {
+	margin-bottom: 30px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+	
+}
+
+.cards .card {
+	background-color: #fff;
+	border-radius: 16px;
+	padding: 30px;
+	border: 1px solid #0E0E0E26 ;
+	width: 280px;
+}
+
+.cards .card h3 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #0E0E0E;
+	margin-bottom: 15px;
+}
+
+.cards .card p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #0E0E0E80;
 }
