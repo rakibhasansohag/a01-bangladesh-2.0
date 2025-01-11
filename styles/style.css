@@ -360,3 +360,62 @@ body {
   position: absolute;
 }
 
+/* News Card Section */
+.news-card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+	flex-wrap: wrap;
+	padding: 35px;
+	background-color: #fff;
+	border-radius: 16px;
+	margin-bottom: 30px;
+}
+
+.flex-reverse {
+	flex-direction: row-reverse !important;
+}
+
+.news-card-img {
+	width: 390px;
+	height: 290px;
+	overflow: hidden;
+}
+
+.news-card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 16px;
+}
+
+.news-card-content {
+	width: 780px;
+}
+
+.news-card-content h2 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38.4px;
+	color: #0E0E0E;
+	margin-bottom: 15px;
+}
+
+.news-card-logo {
+	margin-bottom: 10px;
+}
+
+
+.news-card-content p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #0E0E0E;
+	opacity: .70;
+	margin-bottom: 10px;
+}
+
+.news-card-button button{
+	margin-top: 10px;
+}
