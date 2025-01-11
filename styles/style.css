@@ -480,3 +480,72 @@ body {
 	padding: 20px 30px;
 	border-radius: 10px;
 }
+
+/* Subscribe Section */
+.subscribe {
+	text-align: center;
+	padding: 50px 0;
+	background-color: #C6E4D6;
+	border-radius: 24px;
+}
+
+.subscribe h1 {
+	font-size: 40px;
+	line-height: 48px;
+	color: #0E0E0E;
+	font-weight: 700;
+	margin:20px 0 15px 0;
+}
+
+.subscribe p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #0E0E0E;
+	font-weight: 400;
+	padding-bottom: 20px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.subscribe-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+
+.subscribe-input input {
+	width: 600px;
+	padding: 20px 30px;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #0e0e0e06;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.subscribe-input button {
+	padding: 20px 30px;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #fff;
+	background-color: #006A50;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+
+.subscribe h4 {
+	font-size: 16px;
+	line-height: 19.2px;
+	color: #0e0e0e;
+	font-weight: 400;
+	opacity:.7;
+	margin-top: 30px;
+}
+
