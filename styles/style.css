@@ -284,3 +284,79 @@ body {
 	margin-bottom: 5px;
 	opacity: .8;
 }
+
+/* Your Opinion */
+.opinion {
+	padding: 20px 0;
+}
+
+.questions {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 16px;
+	
+
+}
+
+.question1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	border : 1px solid #0E0E0E26;
+	padding: 30px;
+	background-color: #C6E4D6;
+}
+
+.question1 h3 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 26.4px;
+	color: #0E0E0E;
+}
+
+.question {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	border : 1px solid #0E0E0E26;
+	
+}
+
+.question h3 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.2px;
+	color: #0E0E0E;
+	padding: 30px;
+}
+
+.question select {
+	border: 1px solid #0E0E0E;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.2px;
+	color: #0E0E0E;
+	padding: 10px 20px;
+	background-color: #C6E4D6;
+	-webkit-appearance: none;
+  	appearance: none;
+	padding-right: 40px;
+}
+
+.select-wrapper {
+	position: relative;
+	border-left: 1px solid #0E0E0E26;
+	padding: 30px;
+}
+
+
+.select-wrapper::after {
+  content: "⮟";
+  font-size: 1rem;
+  top: 38px;
+  right: 43px;
+  position: absolute;
+}
+
