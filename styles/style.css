@@ -32,7 +32,7 @@ body {
 .button {
 	background-color: #006A50;
 	color: #fff;
-	padding: 10px 20px;
+	padding: 17px 30px;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 21.6px;
@@ -109,7 +109,7 @@ body {
 	padding: 50px 60px;
 	background-color: #C6E4D6;
 	border-radius: 24px;
-
+	margin-top: 10px;
 }
 
 .hero .content h4 {
@@ -118,7 +118,7 @@ body {
 	line-height: 28.4px;
 	color: #0E0E0E80;
 	opacity: .50;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
 .hero .content p {
@@ -126,18 +126,19 @@ body {
 	font-weight: 700;
 	line-height: 67.2px;
 	color: #0E0E0E;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 
 /* pillars of cards Section  */
 .pillars {
-	margin-bottom: 30px;
+	padding: 50px 0 20px 0;
+	
 }
 
 .cards {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: stretch;
 	gap: 30px;
 	flex-wrap: wrap;
 	
@@ -149,6 +150,10 @@ body {
 	padding: 30px;
 	border: 1px solid #0E0E0E26 ;
 	width: 295px;
+}
+
+.cards .card:hover {
+	background-color: #C6E4D6;
 }
 
 .cards .card h3 {
@@ -238,15 +243,26 @@ body {
 	background-color: #5490F5;
 }
 
+.blue-button:hover {
+	background-color: rgba(0, 106, 80, 0.53) !important;
+}
+
 .green-button {
 	background-color: #09A15C;	
+}
+
+.green-button:hover {
+	background-color: #006A50 !important;
 }
 
 .yellow-button {
 	background-color: #FFC239;
 }
 
-
+.yellow-button:hover {
+	background-color: #ffc43968 !important;
+	color:black !important;
+}
 
 /* Testimonial */
 
@@ -430,7 +446,7 @@ body {
 
 .donate {
 	text-align: center;
-	padding: 30px 0;
+	padding: 30px 0 75px 0;
 }
 
 .donate-cards {
@@ -484,7 +500,7 @@ body {
 /* Subscribe Section */
 .subscribe {
 	text-align: center;
-	padding: 50px 0;
+	padding: 70px 0;
 	background-color: #C6E4D6;
 	border-radius: 24px;
 }
@@ -531,13 +547,16 @@ body {
 	padding: 20px 30px;
 	border: none;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 20px;
 	color: #fff;
 	background-color: #006A50;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	cursor: pointer;
+}
+.subscribe-input button:hover {
+	background-color: #0E0E0E;
 }
 
 .subscribe h4 {
